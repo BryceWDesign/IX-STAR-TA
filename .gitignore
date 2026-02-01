@@ -1,0 +1,29 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# Build / Dist
+build/
+dist/
+*.egg-info/
+
+# Data / Logs (keep raw datasets out of git unless explicitly intended)
+data/
+logs/
+runs/**/raw/*
+runs/**/plots/*
+*.csv
+*.h5
+*.hdf5
+*.mat
+*.npz
